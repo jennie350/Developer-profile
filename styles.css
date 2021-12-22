@@ -1,7 +1,6 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -83,4 +82,43 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .work-title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .homepage-large-image {
+    display: none;
+  }
+
+  .work-link {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .email-link {
+    font-size: 18px;
+  }
 }
